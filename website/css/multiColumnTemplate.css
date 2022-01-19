@@ -1,0 +1,578 @@
+@charset "UTF-8";
+.container {
+    background-color: #FFFFFF;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-width: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.row {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: inline-block
+}
+
+.row.blockDisplay {
+    display: block;
+}
+
+.column_half {
+    width: 50%;
+    float: left;
+    margin-top: 0px;
+}
+
+.columns {
+    width: 25%;
+    float: left;
+    font-family: "Source Sans Pro";
+    color: #A5A5A5;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.row .columns p {
+    padding-left: 10%;
+    padding-right: 10%;
+    max-height: 10000px;
+}
+
+.container .columns h4 {
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.primary_header {
+    width: 100%;
+    background-color: ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: left;
+    border-bottom: 2px solid black;
+    /* [disabled]background-color: #682829; */
+    text-align: center;
+    font-size-adjust: central;
+    color: black;
+    font-size: 300%;
+    text-decoration: none;
+}
+
+. .left_article {
+    background-color: #FFFFFF;
+    width: 60%;
+    float: left;
+    font-family: "Source Sans Pro";
+    color: #343434;
+    padding-bottom: 15px;
+}
+
+.noDisplay {
+    display: none;
+    background-image: url(../webpage/Coronavirus.jpg);
+}
+
+.container .left_article h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    color: #717070;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container .left_article p {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #B3B3B3;
+}
+
+.right_article {
+    width: 40%;
+    float: left;
+    background-color: #F6F6F6;
+}
+
+.container .right_article ul {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.right_article ul li {
+    font-family: "Source Sans Pro";
+    list-style: none;
+    text-align: center;
+    background-color: #B3B3B3;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 0px;
+    transition: all 1s ease-in-out 0s;
+    border-left: 5px solid #717070;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+}
+
+.right_article ul li:hover {
+    background-color: #F82727;
+    cursor: pointer;
+    font-size: small;
+}
+
+.footer {
+    background-color: #717070;
+}
+
+.title {
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    background-color: #D52326;
+    background-image: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 1.00) 0%, rgba(189, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(255, 255, 255, 1.00) 0%, rgba(189, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(255, 255, 255, 1.00) 0%, rgba(189, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.00) 0%, rgba(189, 0, 0, 1.00) 100%);
+    background-repeat: repeat;
+    min-width: 213px;
+    min-height: 99px;
+}
+
+.placeholder {
+    /* [disabled]max-width: 400px;
+*/
+    /* [disabled]max-height: 200px;
+*/
+    width: 100%;
+    padding-top: 30px;
+    /* [disabled]padding-left: 19px;
+*/
+    padding-bottom: 30px;
+    height: 100%;
+    bottom: 50px;
+}
+
+.left_half {
+    background-color: #52BAD5;
+}
+
+.container .column_half.left_half h2 {
+    color: #FFFFFF;
+    font-family: "Source Sans Pro";
+    text-align: center;
+}
+
+.right_half {
+    background-color: white;
+    color: #FFFFFF;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    font-weight: bold;
+}
+
+.column_title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #A80505;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+    font-family: "Source Sans Pro";
+    height: 10in;
+    background-image: url(url);
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: #FDFDFD;
+    width: 10in;
+    height: 10in;
+    background-image: url(../webpage/Coronavirus.jpg);
+    text-align: center;
+    color: #2C2066;
+}
+
+body {}
+
+body {
+    background-image: url(../webpage/Coronavirus.jpg);
+    width: 1366px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-repeat: repeat-x;
+    height: 400px;
+    background-color: #F7F7F7;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    color: #FF0004;
+}
+
+@media (max-width: 320px) {
+    .secondary_header ul li {
+        float: none;
+        margin-top: 28px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .container .secondary_header ul {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .left_article {
+        width: 100%;
+        height: auto;
+    }
+    .right_article {
+        width: 100%;
+        height: auto;
+    }
+    .placeholder {
+        width: 100%;
+        margin-top: 22PX;
+        margin-right: 0px;
+        margin-bottom: 22PX;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        max-width: 400px;
+        max-height: 200px;
+        height: auto;
+    }
+    .columns {
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 0PX;
+        padding-right: 0PX;
+        padding-bottom: 0PX;
+        padding-left: 0PX;
+    }
+    .columns p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .column_half.left_half {
+        width: 100%;
+    }
+    .column_half.right_half {
+        width: 100%;
+    }
+    .copyright {
+        padding-top: 25px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .container .left_article h3 {
+        margin-top: 30px;
+    }
+    .social .social_icon img {
+        width: 80%;
+    }
+    .container .secondary_header {}
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .secondary_header ul li {
+        float: none;
+        margin-top: 28px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .container .secondary_header ul {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .secondary_header {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 1px;
+        padding-bottom: 40px;
+    }
+    .left_article {
+        width: 100%;
+        height: auto;
+    }
+    .right_article {
+        width: 100%;
+        height: auto;
+        padding-bottom: 25px;
+    }
+    .placeholder {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+    }
+    .columns {
+        width: 100%;
+        margin-top: 6px;
+        margin-right: 0px;
+        margin-bottom: 6px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    .columns p {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .column_half.left_half {
+        width: 100%;
+    }
+    .column_half.right_half {
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+    .secondary_header {
+        overflow: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .secondary_header ul li {
+        margin-top: 10px;
+        margin-right: 7%;
+        margin-bottom: 10px;
+        margin-left: 7%;
+    }
+    .left_article {
+        height: auto;
+    }
+    .right_article {
+        height: auto;
+        padding-bottom: 27px;
+    }
+    .placeholder {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .columns {
+        width: 50%;
+        float: left;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .container .columns p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media (min-width: 1001px) {}
+
+.thumbnail {
+    width: 100px;
+    border-radius: 200px;
+    height: 100px;
+    margin-left: auto;
+    max-width: px;
+    max-height: 0px;
+}
+
+.thumbnail_align {
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    background-color: #414141;
+    clear: both;
+    overflow: auto;
+}
+
+.social_icon {
+    width: 25%;
+    text-align: center;
+    float: left;
+    transition: all 0.3s linear;
+    line-height: 0px;
+    padding-top: 7px;
+}
+
+.container .social .social_icon:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#menu {}
+
+.font-size {
+    color: #BD393C;
+    background-color: #740E0F;
+}
+
+.heade {
+    color: black;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 49.9px;
+    text-shadow: 0px 0px #000000;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    border-style: hidden;
+    background-color: #F4090D;
+    background-image: url(../webpage/Coronavirus.jpg);
+    background-size: cover;
+    font-weight: normal;
+    visibility: inherit;
+    text-align: left;
+    /* [disabled]background-clip: border-box; */
+    background-repeat: no-repeat;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    font-style: oblique;
+    position: fixed;
+}
+
+.main {
+    width: 1090px;
+    height: 360px;
+    background-color: #FBFBFB;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 130px;
+    margin-right: 30px;
+    opacity: 0.5;
+    text-align: left;
+    font-size: x-large;
+    margin-bottom: 0px;
+}
+
+.container .heade strong {
+    height: 768px;
+    width: 1366px;
+    opacity: 1;
+    font-size: medium;
+}
+
+.SYMPTOMS {
+    background-image: url(../webpage/20200403_020012.jpg);
+    width: 205px;
+    height: 205px;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    margin-left: 0px;
+    -webkit-transition: all 1s ease-out 0s;
+    -o-transition: all 1s ease-out 0s;
+    transition: all 1s ease-out 0s;
+}
+
+.SYMPTOMS:hover {
+    height: 250px;
+    width: 250px;
+    margin-left: px;
+    margin-right: 0px;
+}
+
+.prevent {
+    -webkit-transition: all 1s ease-out 0s;
+    -o-transition: all 1s ease-out 0s;
+    transition: all 1s ease-out 0s;
+}
+
+.prevent:hover {
+    height: 250px;
+    width: 250px;
+}
+
+.MIIN {
+    color: white;
+    font-weight: 900;
+    font-size: 500%;
+    text-shadow: none;
+    text-align: center;
+}
